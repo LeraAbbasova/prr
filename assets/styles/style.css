@@ -1,0 +1,512 @@
+@import url(./fonts.css);
+
+*{
+     
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+    text-decoration-line: none;
+}
+.big {
+    background-color: #ECFFFF;  
+   
+}
+
+.content{
+    width: 1400px;
+    margin: 0 auto;
+    
+
+}
+.logo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    background-color: #C2F9F9;
+   
+    Font-family: "Monr";
+    font-size: 24px;
+
+}
+.logo img{
+    width: 394px;
+    height: 302px;
+}
+
+.ak a{
+    padding-left: 30px;
+    Font-family: "Mons";
+    font-size: 24px;
+    color: black;
+}
+
+.praz{
+   text-align: center;
+   
+}
+.praz h2{
+    font-family: 'Mons';
+    font-size: 64px;
+    color:#CEA75C ;
+    margin-top: 50px;
+    margin-bottom: 20px;
+
+}
+.praz p{
+    font-family: 'Monr';
+    font-size: 36px;  
+    margin-bottom: 50px;
+}
+.praz img{
+    border-radius: 93px;
+}
+
+.onas{
+    margin-top: 100px;
+
+}
+.vse{
+    font-family: 'Monm';
+    font-size: 48px;
+    text-align: center;
+}
+.b1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.b1 img{
+    width: 536px;
+    height: 357px;
+    border-radius: 71px;
+    margin-top: 150px;
+}   
+.b1 p{
+  
+    font-family: 'Monr';
+    font-size: 26px;
+
+}
+.yel{
+    color: #CEA75C;
+    font-family: 'Mons';
+    font-size: 26px;
+}
+
+.b2{
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 100px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.b2 img{
+    width: 604px;
+    height: 403px;
+    border-radius: 71px;
+
+}
+.b2 p{
+    font-family: 'Monr';
+    font-size: 26px;
+}
+.sveta{
+    margin-top: 200px;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 50px;
+    padding-right: 50px;
+margin-bottom: 75px;
+position: relative;
+}
+.sveta p{
+    font-family: 'Monm';
+    font-size: 24px;
+    padding-left: 50px;
+
+}
+.sveta .sv{
+   width: 512px;
+    height: 355px;
+    border-radius: 44px;
+}
+.Marina{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 200px;
+    margin-bottom: 100px;
+    position: relative;
+
+}
+.Marina .mar{
+    width: 691px;
+    H: 461PX;
+border-radius: 127PX;
+
+
+}
+.Marina p{
+    font-family: 'Monm';
+    font-size: 24px;
+}
+.strelka{
+    width: 15%;
+    position: absolute;
+    top: 330px;
+    right: 500px;
+    transform: rotate(220deg);
+
+}
+.strelka1{
+    width: 202px;
+    height: 240px;
+    position: absolute;
+  bottom: 300px;
+  left: 500px;
+  transform: rotate(50deg);
+}
+
+
+.kakpr{
+    margin-top: 300px;
+
+}
+.kakpr .vse{
+    margin-bottom: 100px;
+}
+.inctuc{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(7, 200px);
+
+}
+.bloc1{
+    grid-column-start: 1;
+    grid-row-start: 1;
+    position: relative;
+    padding-left:100px ;
+    text-align: center;
+}
+.bloc1 img{
+    width: 109px;
+    height: 118px;
+    margin-bottom: 30px;
+}
+.strelka2{
+    position: absolute;
+    transform: rotate(60deg);
+    left: 330px;
+}
+.bloc2{
+    grid-column-start: 2;
+    grid-row-start: 2;
+    position: relative;
+    text-align: center;
+    
+}
+.bloc2 img{
+    width: 109px;
+    height: 118px;
+    margin-bottom: 30px;
+}
+.strelka3{
+    position: absolute;
+    transform: rotate(60deg);
+    left: 280px;
+}
+.bloc3{
+    grid-column-start: 3;
+    grid-row-start: 3;
+    position: relative;
+    text-align: center;
+    
+}
+.bloc3 img{
+    width: 109px;
+    height: 118px;
+    margin-bottom: 30px;
+}
+.strelka4{
+    position: absolute;
+    transform: rotate(60deg);
+    left: 280px;
+}
+.bloc4{
+    grid-column-start: 4;
+    grid-row-start: 4;
+    position: relative;
+    text-align: center;
+
+    
+}
+.bloc4 img{
+    width: 109px;
+    height: 118px;
+    margin-bottom: 30px;
+}
+.form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -250px;
+}
+.blue{
+    background-color: #98CBCB;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 1250px;
+    border-radius:81px;
+
+}
+.blue .vse{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.block-form{
+    display: flex;
+    flex-direction: column;
+}
+.blue form label{
+    font-family: 'Monm';
+    font-size: 22px;
+    color: black;
+}
+
+.blue form input{
+    padding: 15px;
+    padding-left: 300px;
+    padding-right: 300px;
+    margin-bottom: 30px;
+}
+.knopka{
+    width: 300px;
+    height: 80px;
+    background-color: #CEA75C;
+    border-radius: 20px;
+    text-align: center;
+    color: white;
+    font-family: 'Monb';
+    font-size: 36px;
+
+}
+.aksia{
+    padding: 50px;
+    margin-top: 100px;
+    
+}
+.dkn{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 100px;
+    margin-top: 30px;
+}
+.xz0{
+    margin-bottom: 100px;
+    font-family: 'Monm';
+    font-size: 22px;
+}
+.xz{
+    margin-bottom: 50px;
+    display: flex;
+
+}
+.xz0 img{
+    margin-bottom: 50px;
+    border-radius: 62px;
+}
+.kdfj{
+    display: flex;
+    justify-content: center;
+}
+.aksia .vse{
+    margin-bottom: 50px;
+}
+.podpiska .block-form{
+    padding-top: 100px;
+}
+.podpiska .vse{
+    margin-bottom: 100px;
+}
+.podpiska{
+    margin-bottom: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.posl{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1400px;
+    font-family: 'Monm';
+    font-size: 22px;
+    background-color:#98CBCB ;
+    padding: 20px;
+}
+.posl img{
+    width: 25%;
+
+}
+.posl a{
+    color: black;
+    font-size: 32px;
+}
+
+.loc{
+    margin-top: 100px;
+    font-family: 'Monm';
+    font-size: 24px;
+    text-align: center;
+   
+
+}
+.ssilka{
+    padding-right: 50px;
+}
+.ssilka p{
+    margin-bottom: 15px;
+
+}
+.loca{
+    margin-top: 100px;
+    padding: 20px;
+}
+.shater{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family:'Monm' ;
+    font-size: 32px;
+    margin-bottom: 100px;
+}
+.shatertxt p{
+    margin-bottom: 100px;
+}
+
+.shatertxt .knopka{
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  
+  
+}
+.shater img{
+    width: 885px;
+    height: 512px;
+    border-radius: 161px;
+}
+.plan img{
+    width: 1300px;
+    height: 1000px;
+    border-radius: 140px;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+.plan{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    position: relative;
+}
+.kry img{
+    width: 95px;
+    height: 90px;
+
+}
+.kry{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 50%;
+    font-family: 'Monm';
+    font-size: 32px;
+    
+}
+.kry .yel{
+    font-size: 32px;
+}
+#kr1 {
+    width: 95px;
+    height: 90px;
+    position: absolute;
+  right: 200px;
+
+}
+#kr2 {
+    width: 95px;
+    height: 90px;
+    position: absolute;
+    top: 100px;
+}
+#kr3 {
+    width: 95px;
+    height: 90px;
+    position: absolute;
+    left:250px;
+}
+.bron form{
+    border-radius: 80px;
+    background-color: #98CBCB;
+    width: 1250px;
+  
+
+}
+.pl{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 100px;
+}
+.pl .block-form input{
+    padding: 15px;
+    width: 70%;
+ 
+}
+
+.pl .block-form{
+    display: flex;
+    flex-direction: column;
+    margin-left: 170px;
+    
+   
+    
+    
+}
+.pl form label{
+    font-family: 'Monm';
+    font-size: 22px;
+    color: black;
+}
+.pl form input{
+    padding: 15px;
+    padding-left: 300px;
+    padding-right: 300px;
+    margin-bottom: 30px;
+}
+.bron .vse{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.bla{
+    display: flex;
+    justify-content: center;
+
+    flex-direction: column;
+    
+}
